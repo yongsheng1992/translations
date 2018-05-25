@@ -4,4 +4,4 @@
 
 # Python相关
 
-- [Copy-on-write friendly Python garbage collection(Copy-on-write友好Python垃圾回收)](/python/Copy-on-write友好的Python垃圾回收.md)
+- [Copy-on-write friendly Python garbage collection(Copy-on-write友好的Python垃圾回收)](/python/Copy-on-write友好的Python垃圾回收.md)
