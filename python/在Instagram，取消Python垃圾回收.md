@@ -1,5 +1,7 @@
 # 在Instagram，我们取消了Python垃圾回收
 
+原文[Dismissing Python Garbage Collection at Instagram](https://instagram-engineering.com/dismissing-python-garbage-collection-at-instagram-4dca40b29172)
+
 通过取消Python通过收集和清理无用数据来回收内存的这种垃圾回收机制，Instagram可以提高10%的性能。是的，你没有听错。通过取消GC，我们能够减少内存使用，提高CPU的LLC[^1]缓存的命中率。如果你想搞清楚为什么，那就继续往下阅读吧！
 
 ## 我们如何运行web服务器
