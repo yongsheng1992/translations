@@ -7,6 +7,7 @@
 Python中的一切皆是对象。有些对象可以包含其它对象，比如列表、元组、字典、类等。因为Python的动态语言天性，这种方式需要对内存进行很多的琐碎的分配。为了加速内存操作和减，Python在通用内存分配器上使用一个称作PyMalloc的特殊管理器。
 
 我们可以将整个系统描绘成一个分层次的集合：
+
 ![分层次模型的图解](https://rushter.com/static/uploads/img/memory_layers.svg)
 
 ## 小对象的分配
